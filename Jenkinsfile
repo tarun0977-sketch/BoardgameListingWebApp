@@ -72,7 +72,7 @@ tools {
             steps {
 
                 withDockerRegistry(
-                    credentialsId: 'Docker',
+                    credentialsId: 'docker-cred',
                     url: 'https://index.docker.io/v1/'
                 ) {
 
